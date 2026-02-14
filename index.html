@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Allrei</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Pico CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+
+  <style>
+    body {
+      text-align: center;
+      background-color: #212b4d;
+      color: white;
+      min-height: 100vh;
+    }
+
+    iframe {
+      width: 100%;
+      max-width: 720px;
+      aspect-ratio: 16 / 9;
+      border-radius: 12px;
+    }
+
+    .links a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 72px;
+      height: 72px;
+      margin: 0.4rem;
+    }
+
+    .links img {
+      width: 50px;
+      height: 50px;
+      opacity: 0.9;
+      transition: opacity 0.2s ease, transform 0.2s ease;
+      filter: brightness(0) invert(1);
+    }
+
+    .links img:hover {
+      opacity: 1;
+      transform: scale(1.08);
+    }
+
+    .links img[alt="Instagram"],
+    .links img[alt="Twitter"],
+    .links img[alt="TikTok"] {
+      transform: scale(0.83);
+    }
+
+    .links img[alt="Instagram"]:hover,
+    .links img[alt="Twitter"]:hover,
+    .links img[alt="TikTok"]:hover {
+      transform: scale(0.90);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+
+    <h1 style="font-size: 4rem;">ALLREI</h1>
+    <p>We'll see if we go anywhere...</p>
+
+    <section class="links">
+      <a href="https://www.youtube.com/@Allrei" target="_blank" rel="noopener"><img src="images/youtube.svg"
+          alt="YouTube"></a>
+      <a href="https://allrei.bandcamp.com/" target="_blank" rel="noopener"><img src="images/bandcamp.svg"
+          alt="Bandcamp"></a>
+      <a href="https://soundcloud.com/Allrei" target="_blank" rel="noopener"><img src="images/soundcloud.svg"
+          alt="SoundCloud"></a>
+      <a href="https://www.instagram.com/allrei.music/" target="_blank" rel="noopener"><img src="images/instagram.svg"
+          alt="Instagram"></a>
+      <a href="https://x.com/AllreiMusic" target="_blank" rel="noopener"><img src="images/x.svg" alt="Twitter"></a>
+      <a href="https://www.tiktok.com/@allreimusic" target="_blank" rel="noopener"><img src="images/tiktok.svg"
+          alt="TikTok"></a>
+    </section>
+
+    <section>
+      <h2>Latest Release</h2>
+      <iframe src="https://www.youtube-nocookie.com/embed/7PzxjRFxqe0" allowfullscreen>
+      </iframe>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>allreimusic@gmail.com</p>
+    </section>
+  </main>
+</body>
+
+</html>
